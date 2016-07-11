@@ -1,0 +1,14 @@
+.component {
+  color: red;
+  border: 1px dotted green;
+  &__title {
+    text-decoration: underline;
+  }
+  &__para {
+    color: blue;
+  }
+  &__para--selected {
+    color: blue;
+    font-weight: bold;
+  }
+}

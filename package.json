@@ -1,0 +1,17 @@
+{
+  "name": "BEM-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build-css",
+    "build-css": "node_modules/node-sass/bin/node-sass style.scss style.css"
+  },
+  "keywords": [],
+  "author": "John Elliott <johnelliott703@gmail.com>",
+  "license": "MIT",
+  "dev-dependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
