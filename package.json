@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build-css",
-    "build-css": "node_modules/node-sass/bin/node-sass style.scss style.css"
+    "build": "npm run build-min-css",
+    "build-css": "node_modules/node-sass/bin/node-sass style.scss style.css",
+    "build-min-css": "npm run build-css && node_modules/clean-css/bin/cleancss style.css -o style.min.css"
   },
   "keywords": [],
   "author": "John Elliott <johnelliott703@gmail.com>",
   "license": "MIT",
-  "dev-dependencies": {
-    "node-sass": "^3.8.0"
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "clean-css": "^3.4.18"
   }
 }

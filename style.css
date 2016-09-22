@@ -1,0 +1,10 @@
+.component {
+  color: red;
+  border: 1px dotted green; }
+  .component__title {
+    text-decoration: underline; }
+  .component__para {
+    color: blue; }
+  .component__para--selected {
+    color: blue;
+    font-weight: bold; }
